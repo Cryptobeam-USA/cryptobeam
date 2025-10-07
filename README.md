@@ -123,59 +123,53 @@ To power the global transition to tokenized, interoperable financial systems thr
 ```mermaid
 flowchart TD
 
-%% === Top-Level Overview ===
-A[User / Institutional Client] --> B[Cryptobeam Exchange UI]
-A --> C[Investor Portal (Webflow + Auth0)]
-A --> D[Developer Integration via CrossBeam SDK]
+%% === ENTRY POINTS ===
+A[User / Institutional Client] --> B[Exchange UI]
+A --> C[Investor Portal]
+A --> D[Developer Access via CrossBeam SDK]
 
-%% === Exchange Infrastructure ===
-B --> E[Cryptobeam Exchange Core]
+%% === EXCHANGE INFRASTRUCTURE ===
+B --> E[Exchange Core]
 E --> F[OpenHFT Engine]
 E --> G[CCXT API]
 E --> H[FIX Gateway]
 E --> I[QuantOps Engine]
 
-%% === Quantitative Layer ===
+%% === QUANTITATIVE LAYER ===
 I --> J[AI Trade Agents]
 I --> K[Liquidity Router]
 I --> L[Risk Engine]
 
-%% === Compliance Layer ===
-E --> M[Cryptobeam Compliance Module]
-M --> M1[Chainalysis API]
-M --> M2[Plaid Integration]
+%% === COMPLIANCE LAYER ===
+E --> M[Compliance Module]
+M --> M1[Chainalysis Integration]
+M --> M2[Plaid KYC]
 M --> M3[Fireblocks Custody]
-M --> M4[OFAC/AML Screening]
+M --> M4[OFAC / AML Screening]
 
-%% === DAMA Protocol Layer ===
+%% === DAMA PROTOCOL LAYER ===
 E --> N[DAMA Protocol Layer]
 N --> N1[ISO 20022 Messaging]
 N --> N2[Cross-Chain Bridge]
 N --> N3[Quantum-Safe Encryption]
 N --> N4[RWA Tokenization]
 
-%% === Developer / SDK Layer ===
+%% === SDK CONNECTIONS ===
 D --> N2
 D --> I
 D --> M
 
-%% === Investor / Fund Layer ===
-C --> O[Investor Accreditation]
+%% === INVESTOR LAYER ===
+C --> O[Accreditation Verification]
 C --> P[NDA Execution]
-C --> Q[Document Access (LPA, AML, Form D)]
+C --> Q[Document Access]
 C --> R[Subscription Workflow]
 R --> S[Cryptobeam Fund LP]
 
-%% === Governance Layer ===
-S --> T[Cryptobeam GP, LLC]
-S --> U[SEC Reg D Filing]
-S --> V[CAMS / AML Oversight]
+%% === GOVERNANCE LAYER ===
+S --> T[Cryptobeam GP LLC]
+S
 
-%% === Cross Links ===
-M4 --> V
-N1 --> U
-F --> K
-M3 --> S
 
 © 2025 Cryptobeam | All Rights Reserved
 Website: https://cryptobeam.us
