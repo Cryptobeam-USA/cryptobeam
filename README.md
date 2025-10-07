@@ -123,52 +123,58 @@ To power the global transition to tokenized, interoperable financial systems thr
 ```mermaid
 flowchart TD
 
-%% === ENTRY POINTS ===
-A[User / Institutional Client] --> B[Exchange UI]
-A --> C[Investor Portal]
-A --> D[Developer Access via CrossBeam SDK]
+%% ==== USER LAYER ====
+A["Users / Institutions"] --> B["Exchange UI"]
+A --> C["Investor Portal"]
+A --> D["Developers (CrossBeam SDK)"]
 
-%% === EXCHANGE INFRASTRUCTURE ===
-B --> E[Exchange Core]
-E --> F[OpenHFT Engine]
-E --> G[CCXT API]
-E --> H[FIX Gateway]
-E --> I[QuantOps Engine]
+%% ==== EXCHANGE LAYER ====
+B --> E["Exchange Core"]
+E --> F["OpenHFT Engine"]
+E --> G["CCXT API"]
+E --> H["FIX Gateway"]
+E --> I["QuantOps Engine"]
 
-%% === QUANTITATIVE LAYER ===
-I --> J[AI Trade Agents]
-I --> K[Liquidity Router]
-I --> L[Risk Engine]
+%% ==== QUANT LAYER ====
+I --> J["AI Trade Agents"]
+I --> K["Liquidity Router"]
+I --> L["Risk Engine"]
 
-%% === COMPLIANCE LAYER ===
-E --> M[Compliance Module]
-M --> M1[Chainalysis Integration]
-M --> M2[Plaid KYC]
-M --> M3[Fireblocks Custody]
-M --> M4[OFAC / AML Screening]
+%% ==== COMPLIANCE LAYER ====
+E --> M["Compliance Module"]
+M --> M1["Chainalysis Integration"]
+M --> M2["Plaid KYC"]
+M --> M3["Fireblocks Custody"]
+M --> M4["OFAC & AML Screening"]
 
-%% === DAMA PROTOCOL LAYER ===
-E --> N[DAMA Protocol Layer]
-N --> N1[ISO 20022 Messaging]
-N --> N2[Cross-Chain Bridge]
-N --> N3[Quantum-Safe Encryption]
-N --> N4[RWA Tokenization]
+%% ==== DAMA PROTOCOL LAYER ====
+E --> N["DAMA Protocol"]
+N --> N1["ISO 20022 Messaging"]
+N --> N2["Cross-Chain Bridge"]
+N --> N3["Quantum-Safe Encryption"]
+N --> N4["Tokenization of RWAs"]
 
-%% === SDK CONNECTIONS ===
+%% ==== SDK CONNECTIONS ====
 D --> N2
 D --> I
 D --> M
 
-%% === INVESTOR LAYER ===
-C --> O[Accreditation Verification]
-C --> P[NDA Execution]
-C --> Q[Document Access]
-C --> R[Subscription Workflow]
-R --> S[Cryptobeam Fund LP]
+%% ==== INVESTOR LAYER ====
+C --> O["Accreditation Verification"]
+C --> P["NDA Execution"]
+C --> Q["Document Access"]
+C --> R["Subscription Workflow"]
+R --> S["Cryptobeam Fund LP"]
 
-%% === GOVERNANCE LAYER ===
-S --> T[Cryptobeam GP LLC]
-S
+%% ==== GOVERNANCE LAYER ====
+S --> T["Cryptobeam GP LLC"]
+S --> U["SEC Reg D Filing"]
+S --> V["CAMS Oversight"]
+M4 --> V
+N1 --> U
+F --> K
+M3 --> S
+
 
 
 © 2025 Cryptobeam | All Rights Reserved
