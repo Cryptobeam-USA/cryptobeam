@@ -23,6 +23,7 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 
 Cryptobeam Ecosystem Stack
 
+
 +---------------------------------------------------------+
 |                   User / Institutional Layer             |
 |   - DAMA Wallet  |  Investor Portal  |  Exchange UI      |
@@ -115,6 +116,8 @@ To power the global transition to tokenized, interoperable financial systems thr
 | Compliance Framework | [cryptobeam-compliance](https://github.com/cryptobeam/cryptobeam-compliance) |
 | Investor Portal      | [investor-portal](https://github.com/cryptobeam/investor-portal)             |
 | Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 |
+
+
 
 © 2025 Cryptobeam | All Rights Reserved
 Website: https://cryptobeam.us
