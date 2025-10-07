@@ -22,6 +22,7 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 ⚙️ Architecture Overview
 
 Cryptobeam Ecosystem Stack
+
 +---------------------------------------------------------+
 |                   User / Institutional Layer             |
 |   - DAMA Wallet  |  Investor Portal  |  Exchange UI      |
@@ -38,6 +39,7 @@ Cryptobeam Ecosystem Stack
 |                   Compliance & Monitoring Layer           |
 |   - AML / KYC  |  Sanctions  |  Reporting / Audit Trail   |
 +---------------------------------------------------------+
+
 
 🧠 Design Principles
 
