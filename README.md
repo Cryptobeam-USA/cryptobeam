@@ -24,22 +24,22 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 Cryptobeam Ecosystem Stack
 
 
-+---------------------------------------------------------+
-|                   User / Institutional Layer             |
-|   - DAMA Wallet  |  Investor Portal  |  Exchange UI      |
-+---------------------------------------------------------+
-|                   Service / API Layer                    |
-|   - Auth0  |  FIX  |  REST  |  Fireblocks  |  Chainalysis  |
-+---------------------------------------------------------+
-|                  Core Engine Layer                       |
-|   - QuantOps Engine  |  Liquidity Router  |  Risk Engine  |
-+---------------------------------------------------------+
-|                   Blockchain / Settlement Layer           |
-|   - DAMA Protocol  |  XRPL Bridge  |  CrossBeam SDK       |
-+---------------------------------------------------------+
-|                   Compliance & Monitoring Layer           |
-|   - AML / KYC  |  Sanctions  |  Reporting / Audit Trail   |
-+---------------------------------------------------------+
+  +---------------------------------------------------------+
+  |                   User / Institutional Layer             |
+  |   - DAMA Wallet  |  Investor Portal  |  Exchange UI      |
+  +---------------------------------------------------------+
+  |                   Service / API Layer                    |
+  |   - Auth0  |  FIX  |  REST  |  Fireblocks  |  Chainalysis  |
+  +---------------------------------------------------------+
+  |                  Core Engine Layer                       |
+  |   - QuantOps Engine  |  Liquidity Router  |  Risk Engine  |
+  +---------------------------------------------------------+
+  |                   Blockchain / Settlement Layer           |
+  |   - DAMA Protocol  |  XRPL Bridge  |  CrossBeam SDK       |
+  +---------------------------------------------------------+
+  |                   Compliance & Monitoring Layer           |
+  |   - AML / KYC  |  Sanctions  |  Reporting / Audit Trail   |
+  +---------------------------------------------------------+
 
 
 🧠 Design Principles
