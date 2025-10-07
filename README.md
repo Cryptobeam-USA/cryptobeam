@@ -45,8 +45,6 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
   |   - AML / KYC  |  Sanctions  |  Reporting / Audit Trail |
   +---------------------------------------------------------+
 
-
-
 🧠 Design Principles
 
 Security-First Architecture – Fireblocks MPC custody + Chainalysis transaction monitoring
