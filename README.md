@@ -124,6 +124,7 @@ To power the global transition to tokenized, interoperable financial systems thr
 
 
 
+
 ## 🧭 Cryptobeam Ecosystem Architecture
 
 ```mermaid
