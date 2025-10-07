@@ -119,3 +119,10 @@ To power the global transition to tokenized, interoperable financial systems thr
 | Compliance Framework | [cryptobeam-compliance](https://github.com/cryptobeam/cryptobeam-compliance) |
 | Investor Portal      | [investor-portal](https://github.com/cryptobeam/investor-portal)             |
 | Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 |
+
+© 2025 Cryptobeam | All Rights Reserved
+Website: https://cryptobeam.us
+
+Investor Portal: https://invest.cryptobeam.us
+
+Contact: info@cryptobeam.us
