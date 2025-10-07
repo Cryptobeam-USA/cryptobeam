@@ -19,9 +19,11 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 | 🔗 **Developer SDK**               | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 | Cross-chain liquidity SDK for developers integrating with the DAMA network.                     |
 
 
+
 ⚙️ Architecture Overview
 
-Cryptobeam Ecosystem Stack
+
+  Cryptobeam Ecosystem Stack
 
 
   +---------------------------------------------------------+
