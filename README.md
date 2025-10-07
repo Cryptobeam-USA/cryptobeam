@@ -18,6 +18,7 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 | 💼 **Investor Platform**           | [investor-portal](https://github.com/cryptobeam/investor-portal)             | Secure Webflow + Auth0 investor gateway for Reg D onboarding and document access.               |
 | 🔗 **Developer SDK**               | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 | Cross-chain liquidity SDK for developers integrating with the DAMA network.                     |
 
+
 ⚙️ Architecture Overview
 
 Cryptobeam Ecosystem Stack
