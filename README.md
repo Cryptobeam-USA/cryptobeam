@@ -174,13 +174,3 @@ M4 --> V
 N1 --> U
 F --> K
 M3 --> S
-
-
-
-
-© 2025 Cryptobeam | All Rights Reserved
-Website: https://cryptobeam.us
-
-Investor Portal: https://invest.cryptobeam.us
-
-Contact: info@cryptobeam.us
