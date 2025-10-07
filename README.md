@@ -174,3 +174,71 @@ M4 --> V
 N1 --> U
 F --> K
 M3 --> S
+
+## 🔐 Data & Compliance Flow Diagram
+
+```mermaid
+flowchart TD
+
+%% === USER ENTRY POINTS ===
+A[User / Investor / Trader] --> B[Auth0 (Identity Verification)]
+A --> C[Plaid (Bank Link & KYC)]
+A --> D[Investor Portal (Webflow/Firebase)]
+
+%% === IDENTITY VERIFICATION LAYER ===
+B --> E[Cryptobeam Compliance Hub]
+C --> E
+D --> E
+
+%% === COMPLIANCE HUB COMPONENTS ===
+E --> F[Chainalysis API - Transaction Monitoring]
+E --> G[Fireblocks Custody API - Wallet Security]
+E --> H[OFAC / Sanctions Screening]
+E --> I[CDD / EDD Risk Scoring]
+
+%% === AUDIT & REPORTING ===
+F --> J[Suspicious Activity Reports (SARs)]
+H --> J
+I --> J
+
+J --> K[AML Audit Database (Encrypted Storage)]
+K --> L[FinCEN / SEC Regulatory Reporting Interface]
+
+%% === GOVERNANCE & OVERSIGHT ===
+L --> M[Cryptobeam Compliance Officer Review]
+M --> N[Board & CAMS Oversight]
+N --> O[Annual Independent Audit]
+
+%% === FEEDBACK LOOP ===
+O --> E
+
+%% === INVESTOR SPECIFIC FLOWS ===
+D --> P[Subscription Form (Reg D 506(b))]
+P --> Q[Cryptobeam Fund LP Records]
+Q --> R[SEC Form D Filing]
+Q --> S[LPA & AML Doc Storage]
+R --> L
+
+%% === VISUAL GROUPS ===
+subgraph Identity Layer
+B
+C
+D
+end
+
+subgraph Compliance Layer
+E
+F
+G
+H
+I
+J
+end
+
+subgraph Reporting Layer
+K
+L
+M
+N
+O
+end
