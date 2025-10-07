@@ -20,10 +20,12 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 
 
 
+
 ⚙️ Architecture Overview
 
 
-  Cryptobeam Ecosystem Stack
+   Cryptobeam Ecosystem Stack
+   
 
 
   +---------------------------------------------------------+
@@ -42,6 +44,7 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
   |                Compliance & Monitoring Layer            |
   |   - AML / KYC  |  Sanctions  |  Reporting / Audit Trail |
   +---------------------------------------------------------+
+
 
 
 🧠 Design Principles
@@ -118,6 +121,7 @@ To power the global transition to tokenized, interoperable financial systems thr
 | Compliance Framework | [cryptobeam-compliance](https://github.com/cryptobeam/cryptobeam-compliance) |
 | Investor Portal      | [investor-portal](https://github.com/cryptobeam/investor-portal)             |
 | Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 |
+
 
 
 ## 🧭 Cryptobeam Ecosystem Architecture
