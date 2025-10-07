@@ -122,68 +122,62 @@ To power the global transition to tokenized, interoperable financial systems thr
 | Investor Portal      | [investor-portal](https://github.com/cryptobeam/investor-portal)             |
 | Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 |
 
-
-
-
 ## 🧭 Cryptobeam Ecosystem Architecture
 
 ```mermaid
 flowchart TD
 
-%% ==== USER LAYER ====
-A["Users and Institutions"] --> B["Exchange UI"]
-A --> C["Investor Portal"]
-A --> D["Developers via CrossBeam SDK"]
+%% === Top-Level Overview ===
+A[User / Institutional Client] --> B[Cryptobeam Exchange UI]
+A --> C[Investor Portal (Webflow + Auth0)]
+A --> D[Developer Integration via CrossBeam SDK]
 
-%% ==== EXCHANGE LAYER ====
-B --> E["Exchange Core"]
-E --> F["OpenHFT Engine"]
-E --> G["CCXT API"]
-E --> H["FIX Gateway"]
-E --> I["QuantOps Engine"]
+%% === Exchange Infrastructure ===
+B --> E[Cryptobeam Exchange Core]
+E --> F[OpenHFT Engine]
+E --> G[CCXT API]
+E --> H[FIX Gateway]
+E --> I[QuantOps Engine]
 
-%% ==== QUANT LAYER ====
-I --> J["AI Trade Agents"]
-I --> K["Liquidity Router"]
-I --> L["Risk Engine"]
+%% === Quantitative Layer ===
+I --> J[AI Trade Agents]
+I --> K[Liquidity Router]
+I --> L[Risk Engine]
 
-%% ==== COMPLIANCE LAYER ====
-E --> M["Compliance Module"]
-M --> M1["Chainalysis Integration"]
-M --> M2["Plaid KYC"]
-M --> M3["Fireblocks Custody"]
-M --> M4["OFAC and AML Screening"]
+%% === Compliance Layer ===
+E --> M[Cryptobeam Compliance Module]
+M --> M1[Chainalysis API]
+M --> M2[Plaid Integration]
+M --> M3[Fireblocks Custody]
+M --> M4[OFAC/AML Screening]
 
-%% ==== DAMA PROTOCOL LAYER ====
-E --> N["DAMA Protocol"]
-N --> N1["ISO 20022 Messaging"]
-N --> N2["Cross-Chain Bridge"]
-N --> N3["Quantum-Safe Encryption"]
-N --> N4["Tokenization of RWAs"]
+%% === DAMA Protocol Layer ===
+E --> N[DAMA Protocol Layer]
+N --> N1[ISO 20022 Messaging]
+N --> N2[Cross-Chain Bridge]
+N --> N3[Quantum-Safe Encryption]
+N --> N4[RWA Tokenization]
 
-%% ==== SDK CONNECTIONS ====
+%% === Developer / SDK Layer ===
 D --> N2
 D --> I
 D --> M
 
-%% ==== INVESTOR LAYER ====
-C --> O["Accreditation Verification"]
-C --> P["NDA Execution"]
-C --> Q["Document Access"]
-C --> R["Subscription Workflow"]
-R --> S["Cryptobeam Fund LP"]
+%% === Investor / Fund Layer ===
+C --> O[Investor Accreditation]
+C --> P[NDA Execution]
+C --> Q[Document Access (LPA, AML, Form D)]
+C --> R[Subscription Workflow]
+R --> S[Cryptobeam Fund LP]
 
-%% ==== GOVERNANCE LAYER ====
-S --> T["Cryptobeam GP LLC"]
-S --> U["SEC Reg D Filing"]
-S --> V["CAMS Oversight"]
+%% === Governance Layer ===
+S --> T[Cryptobeam GP, LLC]
+S --> U[SEC Reg D Filing]
+S --> V[CAMS / AML Oversight]
+
+%% === Cross Links ===
 M4 --> V
 N1 --> U
 F --> K
 M3 --> S
 
-L
-M
-N
-O
-end
