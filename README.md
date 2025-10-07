@@ -124,9 +124,9 @@ To power the global transition to tokenized, interoperable financial systems thr
 flowchart TD
 
 %% ==== USER LAYER ====
-A["Users / Institutions"] --> B["Exchange UI"]
+A["Users and Institutions"] --> B["Exchange UI"]
 A --> C["Investor Portal"]
-A --> D["Developers (CrossBeam SDK)"]
+A --> D["Developers via CrossBeam SDK"]
 
 %% ==== EXCHANGE LAYER ====
 B --> E["Exchange Core"]
@@ -145,7 +145,7 @@ E --> M["Compliance Module"]
 M --> M1["Chainalysis Integration"]
 M --> M2["Plaid KYC"]
 M --> M3["Fireblocks Custody"]
-M --> M4["OFAC & AML Screening"]
+M --> M4["OFAC and AML Screening"]
 
 %% ==== DAMA PROTOCOL LAYER ====
 E --> N["DAMA Protocol"]
@@ -174,6 +174,7 @@ M4 --> V
 N1 --> U
 F --> K
 M3 --> S
+
 
 
 
