@@ -11,12 +11,12 @@ From exchange infrastructure to tokenized asset protocols, our ecosystem is engi
 
 | Pillar                             | Repository                                                                   | Description                                                                                     |
 | ---------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| 💱 **Exchange Infrastructure**     | [cryptobeam-exchange](https://github.com/cryptobeam/cryptobeam-exchange)     | High-frequency trading and liquidity platform using OpenHFT, CCXT, and FIX protocols.           |
-| 🪙 **Token Layer (DAMA Protocol)** | [damacoin-protocol](https://github.com/cryptobeam/damacoin-protocol)         | ISO 20022–compliant token layer for institutional settlements and cross-chain interoperability. |
-| 🤖 **Quantitative Liquidity**      | [quantops-engine](https://github.com/cryptobeam/quantops-engine)             | AI-driven algorithmic liquidity and quantitative strategy engine.                               |
-| 🛡️ **Compliance Framework**       | [cryptobeam-compliance](https://github.com/cryptobeam/cryptobeam-compliance) | AML/KYC automation built on Chainalysis, Plaid, and Fireblocks APIs.                            |
-| 💼 **Investor Platform**           | [investor-portal](https://github.com/cryptobeam/investor-portal)             | Secure Webflow + Auth0 investor gateway for Reg D onboarding and document access.               |
-| 🔗 **Developer SDK**               | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 | Cross-chain liquidity SDK for developers integrating with the DAMA network.                     |
+| 💱 **Exchange Infrastructure**     | [cryptobeam-exchange](https://github.com/cryptobeam-usa/cryptobeam-exchange)     | High-frequency trading and liquidity platform using OpenHFT, CCXT, and FIX protocols.           |
+| 🪙 **Token Layer (DAMA Protocol)** | [damacoin-protocol](https://github.com/cryptobeam-usa/damacoin-protocol)         | ISO 20022–compliant token layer for institutional settlements and cross-chain interoperability. |
+| 🤖 **Quantitative Liquidity**      | [quantops-engine](https://github.com/cryptobeam-usa/quantops-engine)             | AI-driven algorithmic liquidity and quantitative strategy engine.                               |
+| 🛡️ **Compliance Framework**       | [cryptobeam-compliance](https://github.com/cryptobeam-usa/cryptobeam-compliance) | AML/KYC automation built on Chainalysis, Plaid, and Fireblocks APIs.                            |
+| 💼 **Investor Platform**           | [investor-portal](https://github.com/cryptobeam-usa/investor-portal)             | Secure Webflow + Auth0 investor gateway for Reg D onboarding and document access.               |
+| 🔗 **Developer SDK**               | [crossbeam-sdk](https://github.com/cryptobeam-usa/crossbeam-sdk)                 | Cross-chain liquidity SDK for developers integrating with the DAMA network.                     |
 
 
 
