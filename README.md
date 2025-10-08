@@ -120,7 +120,12 @@ To power the global transition to tokenized, interoperable financial systems thr
 | Investor Portal      | [investor-portal](https://github.com/cryptobeam/investor-portal)             |
 | Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 |
 
+Cryptobeam © 2025 | All Rights Reserved
+Website: https://cryptobeam.us
 
+Investor Portal: https://invest.cryptobeam.us
+
+Contact: info@cryptobeam.us
 
 
 ## 🧭 Cryptobeam Ecosystem Architecture
@@ -183,9 +188,3 @@ N1 --> U
 F --> K
 M3 --> S
 
-Cryptobeam© 2025 | All Rights Reserved
-Website: https://cryptobeam.us
-
-Investor Portal: https://invest.cryptobeam.us
-
-Contact: info@cryptobeam.us
