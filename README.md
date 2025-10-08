@@ -130,7 +130,6 @@ Contact: info@cryptobeam.us
 
 ## 🧭 Cryptobeam Ecosystem Architecture
 
-
 ```mermaid
 flowchart TD
 
