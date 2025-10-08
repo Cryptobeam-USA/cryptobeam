@@ -113,12 +113,12 @@ To power the global transition to tokenized, interoperable financial systems thr
 
 | Category             | Link                                                                         |
 | -------------------- | ---------------------------------------------------------------------------- |
-| Core Exchange        | [cryptobeam-exchange](https://github.com/cryptobeam/cryptobeam-exchange)     |
-| DAMA Protocol        | [damacoin-protocol](https://github.com/cryptobeam/damacoin-protocol)         |
-| Quant Engine         | [quantops-engine](https://github.com/cryptobeam/quantops-engine)             |
-| Compliance Framework | [cryptobeam-compliance](https://github.com/cryptobeam/cryptobeam-compliance) |
-| Investor Portal      | [investor-portal](https://github.com/cryptobeam/investor-portal)             |
-| Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam/crossbeam-sdk)                 |
+| Core Exchange        | [cryptobeam-exchange](https://github.com/cryptobeam-usa/cryptobeam-exchange)     |
+| DAMA Protocol        | [damacoin-protocol](https://github.com/cryptobeam-usa/damacoin-protocol)         |
+| Quant Engine         | [quantops-engine](https://github.com/cryptobeam-usa/quantops-engine)             |
+| Compliance Framework | [cryptobeam-compliance](https://github.com/cryptobeam-usa/cryptobeam-compliance) |
+| Investor Portal      | [investor-portal](https://github.com/cryptobeam-usa/investor-portal)             |
+| Developer SDK        | [crossbeam-sdk](https://github.com/cryptobeam-usa/crossbeam-sdk)                 |
 
 
 Cryptobeam © 2025 | All Rights Reserved
